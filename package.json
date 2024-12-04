@@ -1,0 +1,19 @@
+{
+  "name": "nodexpress",
+  "version": "1.0.0",
+  "description": "This project is built using Node.js and Express.js, designed with a modular and scalable structure. It includes well-organized directories for routes, controllers, models, middleware, and configurations, ensuring maintainability and efficient development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "pm2start": "pm2 start index.js",
+    "pm2stop": "pm2 stop index.js",
+    "lint:fix": "eslint --fix ./*.js"
+  },
+  "author": "PratikKumar Ghelani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "node-cron": "^3.0.3"
+  }
+}
